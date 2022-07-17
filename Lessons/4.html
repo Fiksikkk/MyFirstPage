@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Learn CSS</title>
+    <style>
+        div {
+            border: 2px solid red;
+        }
+        img {
+            border: 1px dotted lightgray;
+        }
+        img {
+            position: absolute;
+        }
+        .absolutel1 {
+            top: 10px;
+            left: 10px;
+            z-index: 30;
+        }
+        .absolutel2 {
+            top: 100px;
+            left: 100px;
+            z-index: 20;
+        }
+        .absolutel3 {
+            top: 200px;
+            left: 200px;
+            z-index: 10;
+        }
+    </style>
+</head>
+<body>
+    <div class="relative">
+        <img class="absolutel1" src="picture/cat.jfif" width="200">
+        <img class="absolutel2" src="picture/cat.jfif" width="200">
+        <img class="absolutel3" src="picture/cat.jfif" width="200">
+    </div>
+
+</body>
+</html>

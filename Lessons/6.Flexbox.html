@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Вивчаємо Flexbox</title>
+  <link rel="stylesheet" type="text/css" href="Css/style3.css">
+  <style>
+    .container {
+      /*height: 700px;*/
+      position: relative;
+      border: 3px solid #333;
+      background-color: #09f9dd;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center;
+      align-content: space-around;
+    }
+
+    .container_item {
+      width: 150px;
+      margin: 10px;
+      background-color: #dfdfdf;
+      border: 3px solid #333;
+      text-align: center;
+      color: #333;
+    }
+    .item-1 {
+      min-height: 50 px;
+      /*align-self: center;*/
+    }
+    .item-2 {
+      min-height: 100px;
+    }
+    .item-3 {
+      min-height: 200px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="container_item item-1">Flexbox Item 1</div>
+    <div class="container_item item-2">Flexbox Item 2</div>
+    <div class="container_item item-3">Flexbox Item 3</div>
+    <div class="axis main-axis"></div>
+    <div class="axis cross-axis"></div>
+  </div>
+
+
+</body>
+</html>
+
+
